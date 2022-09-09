@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"module-federation-planing-app": {
+		"module-federation-planning-app": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:component": {
@@ -17,7 +17,7 @@
 				"build": {
 					"builder": "ngx-build-plus:browser",
 					"options": {
-						"outputPath": "dist/module-federation-planing-app",
+						"outputPath": "dist/module-federation-planning-app",
 						"index": "src/index.html",
 						"main": "src/main.ts",
 						"polyfills": "src/polyfills.ts",
@@ -72,11 +72,11 @@
 					"builder": "ngx-build-plus:dev-server",
 					"configurations": {
 						"production": {
-							"browserTarget": "module-federation-planing-app:build:production",
+							"browserTarget": "module-federation-planning-app:build:production",
 							"extraWebpackConfig": "webpack.prod.config.js"
 						},
 						"development": {
-							"browserTarget": "module-federation-planing-app:build:development"
+							"browserTarget": "module-federation-planning-app:build:development"
 						}
 					},
 					"defaultConfiguration": "development",
@@ -89,7 +89,7 @@
 				"extract-i18n": {
 					"builder": "ngx-build-plus:extract-i18n",
 					"options": {
-						"browserTarget": "module-federation-planing-app:build",
+						"browserTarget": "module-federation-planning-app:build",
 						"extraWebpackConfig": "webpack.config.js"
 					}
 				},
