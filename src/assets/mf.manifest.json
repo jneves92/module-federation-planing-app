@@ -1,3 +1,5 @@
 {
-	"mfe1": "http://localhost:3000/remoteEntry.js"
+  "mfe-alergias": "http://localhost:4201/remoteEntry.js",
+  "mfe-alergias-form": "http://localhost:4201/remoteEntry.js",
+  "mfe-patientcare": "http://localhost:4200/remoteEntry.js"
 }
